@@ -1,0 +1,73 @@
+:root {
+    --text-color: #828282;
+    --bg-color: #f6f6ef;
+    --bg-color-header: #ff6600;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 10pt;
+}
+
+#hnheader {
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    background-color: var(--bg-color-header);
+}
+
+.logo {
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.name {
+    display: inline-block;
+    margin-left: 3px;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.menu {
+    display: inline-block;
+    margin-left: 3px;
+}
+
+#hnmain {
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    background-color: var(--bg-color);
+}
+
+#pagespace, .spacer {
+    height: 10px;
+}
+
+.ranking {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: var(--text-color);
+}
+
+.votelinks {
+    display: inline-block;
+    color: var(--text-color);
+}
+
+.title {
+    display: inline-block;
+    text-align: left;
+}
+
+.subtext {
+    margin-left: 40px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    color: var(--text-color);
+    font-size: 7pt;
+}
